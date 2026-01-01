@@ -100,3 +100,10 @@ get /me
 返回值示例:
 {"id":...,"name":"...","avatar":"https://api.phira.cn/files/968fc111-86a9-4918-9072-8653d22b007e","badges":[],"language":"zh-CN","bio":"喵。采购","exp":0,"rks":7.581084,"joined":"2023-06-23T06:28:55.157546Z","last_login":"2026-01-01T07:44:17.601158Z","roles":0,"banned":false,"login_banned":false,"follower_count":0,"following_count":0,"email":"..."}
 ```
+
+## 查询 phira 活动信息:
+```
+get message/list
+返回值示例:
+[{"id":96986,"title":"里糖杯Ⅱ","content":"活动 `里糖杯Ⅱ` 已开始。\n\nThe event `里糖杯Ⅱ` is started.","author":"Mivik","time":"2025-07-09T17:44:21.396461Z"},...]
+```
