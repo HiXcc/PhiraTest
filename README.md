@@ -17,6 +17,7 @@ post /login
 get /chart?
 请求体可不填.
 ```
+###### 搜索id时无视type/division/tags/rating参数的内容
 参数(" --"后为该参数内容/解释):
 - search --搜索内容,如:
   NULCTRL
@@ -37,7 +38,7 @@ get /chart?
   -updated --从旧到新
   rating --按评分顺序
   -rating --按评分逆序
-- division --分区依次为:
+- division --页面分区依次为:
   regular --常规
   troll --整活
   plain --纯配置
