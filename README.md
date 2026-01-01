@@ -42,7 +42,7 @@ get /chart?
   troll --整活
   plain --纯配置
   visual --观赏
-- uploader --上传者,填写玩家id
+- *uploader --上传者,填写玩家id(可不填)
 返回值示例:
 ```
 {"count":1,"results":[{"id":41170,"name":"少女绮想曲~dream battle","level":"IN Lv.15","difficulty":15.0,"charter":"lunaticnight","composer":"zun","illustrator":"","description":"aaaa","ranked":false,"reviewed":true,"stable":false,"stableRequest":false,"illustration":"https://phira.5wyxi.com/files/2756c503-7b59-4956-b168-965e51d16218","preview":"https://phira.5wyxi.com/files/b5eaf47b-7b21-4e9b-8eab-d0ba9a91cd05","file":"https://phira.5wyxi.com/files/fbf0623f-1a8d-4c1a-acc4-dc98da44a315","uploader":...,"tags":["regular"],"rating":0.9103876,"ratingCount":265,"created":"2025-07-08T10:08:22.864544Z","updated":"2025-07-08T10:08:22.864544Z","chartUpdated":"2025-07-08T10:08:22.864544Z"}]}
