@@ -1,7 +1,7 @@
 # 🤔
 > phira api(游戏内):
 > ```
->https://phira.5wyxi.com/
+>https://phira.5wyxi.com
 
 ###### 以下请求头均无特殊需求
 ## phira 绑定账号:
